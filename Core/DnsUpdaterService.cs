@@ -14,7 +14,7 @@ namespace Core
         private string _currentIp;
         private readonly Credentials _credentials = new Credentials();
         private static NLog.Logger logger = NLog.LogManager.GetCurrentClassLogger();
-        private int _timerInterval = 300000;
+        private const int _timerInterval = 300000;
 
         public DnsUpdaterService()
         {
